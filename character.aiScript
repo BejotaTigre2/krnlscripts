@@ -1,0 +1,5 @@
+-- A guide on how to get your token will be at https://github.com/ElWapoteDev/CharacterAI-Luau/blob/main/README.md
+-- This script is not mine.
+getfenv().YourToken = 'INSERT YOUR TOKEN HERE';
+getfenv().WaitAnswer = true;
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ElWapoteDev/CharacterAI-Luau/main/Examples/CharHub.lua', true))();
